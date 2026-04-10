@@ -2,7 +2,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 TOKEN = "8600265043:AAFK2SiRNlndEpbc3jneirUii0LhDT-XICY"
-LINK_GRUPO = "https://t.me/+zEj91stxmDA3MDYx"
+LINK_GRUPO = "https://t.me/tpggratis"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     nome = update.effective_user.first_name
